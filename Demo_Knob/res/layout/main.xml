@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">"
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+
+            <com.lib_knobgrad.Knob
+        		android:id="@+id/knob_1"
+        		android:layout_width="match_parent"
+        		android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+
+            <com.lib_knobgrad.Knob
+        		android:id="@+id/knob_2"
+        		android:layout_width="match_parent"
+        		android:layout_height="match_parent" />    
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+
+            <com.lib_knobgrad.Knob
+        		android:id="@+id/knob_3"
+        		android:layout_width="match_parent"
+        		android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+
+            <com.lib_knobgrad.Knob
+        		android:id="@+id/knob_4"
+        		android:layout_width="match_parent"
+        		android:layout_height="match_parent" />    
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+      <LinearLayout
+        android:layout_width="match_parent"
+       android:layout_height="0px"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+
+            <com.lib_knobgrad.Knob
+        		android:id="@+id/knob_5"
+        		android:layout_width="match_parent"
+        		android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+
+            <com.lib_knobgrad.Knob
+        		android:id="@+id/knob_6"
+        		android:layout_width="match_parent"
+        		android:layout_height="match_parent" />    
+        </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>
